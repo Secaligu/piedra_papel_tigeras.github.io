@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tijeras papel piedra</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <h1>piedra tijera papel</h1>
+    <div class="scoreboard">
+        <p>jugador:<span id="player-score">0</span></p>
+        <p>computadora:<span id="computer-score">0</span></p>
+    </div>
+     
+    <div class="choices">
+        <button onclick="play('piedra')">🪨piedra🪨</button>
+        <button onclick="play('papel')">📄papel📄</button>
+        <button onclick="play('tijeras')">✂️tigeras✂️</button>
+    </div>
+
+    <div id="result" class="result"></div>
+
+    <script src="./script/script.js"></script>
+
+</body>
+</html>
